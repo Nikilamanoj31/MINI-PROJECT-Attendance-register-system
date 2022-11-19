@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="admin.css">
+    <script src="admin.js"></script>
+
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+    <i class='bx bx-institution'></i>
+      <span class="logo_name">TKMCE</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="admin dashboard.html">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+            <a href="department.html"class="active">
+              <i class='bx bx-user' ></i>
+              <span class="links_name">Department</span>
+            </a>
+          </li>
+        <li>
+          <a href="">
+            <i class='bx bx-calendar' ></i>
+            <span class="links_name">Calendar</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Department</span>
+      </div>
+      <div class="notification">
+        <i class='bx bx-notification' ></i>
+       </div>
+      <div class="profile-details">
+        <i class='bx bx-user' ></i>
+        <span class="admin_name">Admin</span>
+      </div>
+    </nav>
+    <div class="home-content">
+    <div class="department">
+    <label for="dept">Select a Department</label>
+
+    <select name="Select" id="dpt">
+    <option value="arch">Select</option>
+    <option value="arch">Architecture</option>
+    <option value="che">Chemical Engineering</option>
+    <option value="civi">Civi Enginnering</option>
+    <option value="mca">Master of Computer Applications</option>
+    </select>
+    <input type="submit" value="Submit">
+    <input type="button" value="Add">
+    </div>
+    </div>
+</section>
+
+</body>
+</html>
